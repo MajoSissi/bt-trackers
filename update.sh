@@ -7,7 +7,7 @@ output_file="trackers.txt"
 # 清空输出文件
 > "$output_file"
 # 逐行读取输入文件中的链接
-while IFS= read -r url; do
+while IFS= read -r url || [[ -n "$url" ]]; do
     # 使用 curl 获取链接内容并追加到输出文件中
     echo "$url"
     curl "$url" >> "$output_file"
