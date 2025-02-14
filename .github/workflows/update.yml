@@ -17,6 +17,7 @@ jobs:
       - name: Update Trackers
         run: |
           chmod 777 *.sh
+          sed -i 's/\r$//' update.sh
           bash update.sh
 
       - name: Push
