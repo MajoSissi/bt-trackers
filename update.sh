@@ -1,17 +1,15 @@
 #!/bin/bash
 
-# 文件名
-LINKS_FILE="trackers_link.txt"
-OUTPUT_FILE="trackers.txt"
+# 输出文件
+output_file="trackers.txt"
 
-# 清空输出文件
-> "$OUTPUT_FILE"
+# 清空或创建输出文件
+> "$output_file"
 
-# 读取链接并下载内容
-while IFS= read -r link; do
-    # 检查链接是否为空
-    if [[ ! -z "$link" ]]; then
-        # 下载内容并合并到输出文件，去除多余的空行
-        curl -s "$link" | awk 'NF' >> "$OUTPUT_FILE"
-    fi
-done < "$LINKS_FILE"
+# 读取追踪器链接文件
+while IFS= read -r url; do
+    # 使用 curl 获取链接内容，并过滤掉多余的空行
+    curl -s "$url" | awk 'NF' >> "$output_file"
+done < trackers_link.txt
+
+echo "所有追踪器已整合到 $output_file 中。"
