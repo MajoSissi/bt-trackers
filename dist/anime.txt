@@ -9,8 +9,10 @@ http://torrentsmd.com:8080/announce
 http://tracker.dhitechnical.com:6969/announce
 http://tracker.electro-torrent.pl/announce
 http://tracker.gbitt.info/announce
+http://tracker.moxing.party:6969/announce
 http://tracker.mywaifu.best:6969/announce
 http://tracker.renfei.net:8080/announce
+http://tracker.sbsub.com:2710/announce
 http://tracker.waaa.moe:6969/announce
 http://tracker.zhuqiy.dgj055.icu:80/announce
 http://tracker3.ctix.cn:8080/announce
@@ -20,12 +22,12 @@ http://www.wareztorrent.com/announce
 http://www.wareztorrent.com:80/announce
 https://004430.xyz:443/announce
 https://1337.abcvg.info:443/announce
-https://ht.therarbg.to:443/announce
 https://t.213891.xyz:443/announce
 https://tp.m-team.cc:443/announce.php
 https://tr.abiir.top/announce
 https://tr.abiir.top:443/announce
 https://tr.abir.ga/announce
+https://tr.abir.ga:443/announce
 https://tr.burnabyhighstar.com/announce
 https://tr.burnabyhighstar.com:443/announce
 https://tracker.7471.top:443/announce
@@ -48,9 +50,8 @@ https://tracker1.520.jp:443/announce
 https://trackme.theom.nz:443/announce
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 udp://evan.im:6969/announce
-udp://exodus.desync.com:6969/announce
+udp://explodie.org:6969/announce
 udp://ipv6.govt.hu:6969/announce
-udp://leet-tracker.moe:1337/announce
 udp://mail.segso.net:6969/announce
 udp://martin-gebhardt.eu:25/announce
 udp://ns575949.ip-51-222-82.net:6969/announce
@@ -61,6 +62,7 @@ udp://open.tracker.ink:6969/announce
 udp://opentor.org:2710/announce
 udp://p4p.arenabg.com:1337/announce
 udp://retracker.hotplug.ru:2710/announce
+udp://retracker01-msk-virt.corbina.net:80/announce
 udp://t.overflow.biz:6969/announce
 udp://torrent.tracker.durukanbal.com:6969/announce
 udp://tr3.ysagin.top:2715/announce
